@@ -1,0 +1,161 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:_Active
+LIBS:_Connector
+LIBS:_Passive
+LIBS:WinchBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X05 P?
+U 1 1 5B93FC94
+P 2450 2200
+F 0 "P?" H 2450 2500 50  0000 C CNN
+F 1 "CONN_02X05" H 2450 1900 50  0000 C CNN
+F 2 "" H 2450 1000 50  0000 C CNN
+F 3 "" H 2450 1000 50  0000 C CNN
+	1    2450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X07 P?
+U 1 1 5B93FCD7
+P 2450 3650
+F 0 "P?" H 2450 4050 50  0000 C CNN
+F 1 "CONN_02X07" V 2450 3650 50  0000 C CNN
+F 2 "" H 2450 2450 50  0000 C CNN
+F 3 "" H 2450 2450 50  0000 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5B93FF1F
+P 4100 3450
+F 0 "P?" H 4100 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 4200 3450 50  0000 C CNN
+F 2 "" H 4100 3450 50  0000 C CNN
+F 3 "" H 4100 3450 50  0000 C CNN
+	1    4100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5B93FF8A
+P 4150 2050
+F 0 "P?" H 4150 2400 50  0000 C CNN
+F 1 "CONN_01X06" V 4250 2050 50  0000 C CNN
+F 2 "" H 4150 2050 50  0000 C CNN
+F 3 "" H 4150 2050 50  0000 C CNN
+	1    4150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B93FFB2
+P 4100 2700
+F 0 "P?" H 4100 2850 50  0000 C CNN
+F 1 "CONN_01X02" V 4200 2700 50  0000 C CNN
+F 2 "" H 4100 2700 50  0000 C CNN
+F 3 "" H 4100 2700 50  0000 C CNN
+	1    4100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5B940075
+P 5550 3450
+F 0 "P?" H 5550 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 5650 3450 50  0000 C CNN
+F 2 "" H 5550 3450 50  0000 C CNN
+F 3 "" H 5550 3450 50  0000 C CNN
+	1    5550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5B9400BD
+P 6250 3450
+F 0 "P?" H 6250 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 6350 3450 50  0000 C CNN
+F 2 "" H 6250 3450 50  0000 C CNN
+F 3 "" H 6250 3450 50  0000 C CNN
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 5B9400E2
+P 6950 3450
+F 0 "P?" H 6950 3650 50  0000 C CNN
+F 1 "CONN_01X03" V 7050 3450 50  0000 C CNN
+F 2 "" H 6950 3450 50  0000 C CNN
+F 3 "" H 6950 3450 50  0000 C CNN
+	1    6950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B940141
+P 4100 4200
+F 0 "P?" H 4100 4350 50  0000 C CNN
+F 1 "CONN_01X02" V 4200 4200 50  0000 C CNN
+F 2 "" H 4100 4200 50  0000 C CNN
+F 3 "" H 4100 4200 50  0000 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5B940168
+P 4750 4200
+F 0 "P?" H 4750 4350 50  0000 C CNN
+F 1 "CONN_01X02" V 4850 4200 50  0000 C CNN
+F 2 "" H 4750 4200 50  0000 C CNN
+F 3 "" H 4750 4200 50  0000 C CNN
+	1    4750 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 1800 0    50   Input ~ 0
+Step
+$EndSCHEMATC
