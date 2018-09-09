@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:_Active
 LIBS:_Connector
 LIBS:_Passive
+LIBS:hdmi
 LIBS:WinchBoard-cache
 EELAYER 25 0
 EELAYER END

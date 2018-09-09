@@ -1,4 +1,4 @@
-update=Saturday, September 08, 2018 'PMt' 12:36:34 PM
+update=Sunday, September 09, 2018 'AMt' 05:35:10 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=ProjectLibrary/_Active
 LibName31=ProjectLibrary/_Connector
 LibName32=ProjectLibrary/_Passive
+LibName33=ProjectLibrary/hdmi
