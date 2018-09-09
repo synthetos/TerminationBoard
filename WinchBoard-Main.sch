@@ -222,17 +222,6 @@ F 3 "" H 6875 5675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HDMI_A J1
-U 1 1 5B951EE4
-P 7500 3500
-F 0 "J1" H 7500 5200 60  0000 C CNN
-F 1 "HDMI_A" H 7850 2250 60  0000 C CNN
-F 2 "_Connector:FCI_10029449-11[13]RLF" H 7000 3000 60  0001 C CNN
-F 3 "" H 7000 3000 60  0000 C CNN
-	1    7500 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X04 P1
 U 1 1 5B951FA2
 P 2750 3650
@@ -465,8 +454,6 @@ Text Label 6500 3500 0    40   ~ 0
 SCL1
 Text Label 6500 3700 0    40   ~ 0
 SDA1
-Wire Wire Line
-	6800 4300 6200 4300
 Connection ~ 6200 4300
 $Comp
 L TP_Top TT7
@@ -485,11 +472,9 @@ Wire Wire Line
 	5350 4200 6200 4200
 Connection ~ 6200 4200
 Wire Wire Line
-	5600 4450 6400 4450
+	6400 4450 5600 4450
 Wire Wire Line
-	6400 4450 6400 4200
-Wire Wire Line
-	6400 4200 6800 4200
+	6400 4000 6400 4450
 Wire Wire Line
 	5600 4550 6200 4550
 Connection ~ 6200 4550
@@ -512,15 +497,13 @@ Wire Wire Line
 Connection ~ 5900 4450
 Text Label 6550 4100 0    40   ~ 0
 DI1
-Text Label 6550 4200 0    40   ~ 0
+Text Label 6550 4000 0    40   ~ 0
 DI2
 Wire Wire Line
 	7100 4950 7100 4900
 Wire Wire Line
 	5800 4950 7100 4950
 Connection ~ 6200 4950
-Wire Wire Line
-	6300 4000 6800 4000
 $Comp
 L CONN_01X02 P6
 U 1 1 5B9557E1
@@ -534,9 +517,7 @@ F 3 "" H 5600 4900 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5800 4850 6300 4850
-Wire Wire Line
-	6300 4850 6300 4000
-Text Label 6550 4000 0    40   ~ 0
+Text Label 6550 4200 0    40   ~ 0
 DO
 Text Label 6600 2200 0    40   ~ 0
 Aout
@@ -619,4 +600,23 @@ Wire Wire Line
 	6750 1950 6800 1950
 Wire Wire Line
 	6800 1950 6800 1900
+$Comp
+L HDMI_A J1
+U 1 1 5B951EE4
+P 7500 3500
+F 0 "J1" H 7500 5200 60  0000 C CNN
+F 1 "HDMI_A" H 7850 2250 60  0000 C CNN
+F 2 "_Connector:FCI_10029449-11[13]RLF" H 7000 3000 60  0001 C CNN
+F 3 "" H 7000 3000 60  0000 C CNN
+	1    7500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4000 6800 4000
+Wire Wire Line
+	6800 4200 6300 4200
+Wire Wire Line
+	6300 4200 6300 4850
+Wire Wire Line
+	6800 4300 6200 4300
 $EndSCHEMATC
