@@ -1,4 +1,4 @@
-update=Sunday, September 09, 2018 'AMt' 05:35:10 AM
+update=Sunday, September 09, 2018 'AMt' 08:28:55 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=ProjectLibrary/_Active
 LibName31=ProjectLibrary/_Connector
 LibName32=ProjectLibrary/_Passive
 LibName33=ProjectLibrary/hdmi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=50
