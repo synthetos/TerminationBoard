@@ -64,7 +64,7 @@ U 1 1 5B940141
 P 5400 4500
 F 0 "P5" H 5400 4650 50  0000 C CNN
 F 1 "CONN_01X02" V 5500 4500 50  0000 C CNN
-F 2 "_Connector:0.100_1x2_small" H 5400 4500 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0000 C CNN
 	1    5400 4500
 	-1   0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5B94F60A
 P 4650 2650
 F 0 "P3" H 4650 2900 50  0000 C CNN
 F 1 "CONN_01X04" V 4750 2650 50  0000 C CNN
-F 2 "_Connector:0.100_1x4_small" H 4650 2650 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 4650 2650 50  0001 C CNN
 F 3 "" H 4650 2650 50  0000 C CNN
 	1    4650 2650
 	-1   0    0    -1  
@@ -108,7 +108,7 @@ U 1 1 5B94F646
 P 3650 3150
 F 0 "P2" H 3650 3400 50  0000 C CNN
 F 1 "CONN_01X04" V 3750 3150 50  0000 C CNN
-F 2 "_Connector:0.100_1x4_small" H 3650 3150 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 3650 3150 50  0001 C CNN
 F 3 "" H 3650 3150 50  0000 C CNN
 	1    3650 3150
 	-1   0    0    -1  
@@ -238,7 +238,7 @@ U 1 1 5B951FA2
 P 2750 3650
 F 0 "P1" H 2750 3900 50  0000 C CNN
 F 1 "CONN_01X04" V 2850 3650 50  0000 C CNN
-F 2 "_Connector:0.100_1x4_small" H 2750 3650 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 2750 3650 50  0001 C CNN
 F 3 "" H 2750 3650 50  0000 C CNN
 	1    2750 3650
 	-1   0    0    -1  
@@ -249,7 +249,7 @@ U 1 1 5B940168
 P 5150 4150
 F 0 "P4" H 5150 4300 50  0000 C CNN
 F 1 "CONN_01X02" V 5250 4150 50  0000 C CNN
-F 2 "_Connector:0.100_1x2_small" H 5150 4150 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 5150 4150 50  0001 C CNN
 F 3 "" H 5150 4150 50  0000 C CNN
 	1    5150 4150
 	-1   0    0    -1  
@@ -289,10 +289,10 @@ Text Label 6500 2700 0    40   ~ 0
 SDA3
 Connection ~ 6200 4400
 $Comp
-L TP_Top TT10
+L TP_Top TT11
 U 1 1 5B952A2E
 P 6950 1450
-F 0 "TT10" H 7000 1480 35  0000 C CNN
+F 0 "TT11" H 7000 1480 35  0000 C CNN
 F 1 "+Vanalog" H 6960 1580 50  0000 C CNN
 F 2 "_Connector:Test_Point_SMD_0.040_Top" H 6950 1500 50  0001 C CNN
 F 3 "" H 6950 1500 50  0000 C CNN
@@ -527,7 +527,7 @@ U 1 1 5B9557E1
 P 5600 4900
 F 0 "P6" H 5600 5050 50  0000 C CNN
 F 1 "CONN_01X02" V 5700 4900 50  0000 C CNN
-F 2 "_Connector:0.100_1x2_small" H 5600 4900 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 5600 4900 50  0001 C CNN
 F 3 "" H 5600 4900 50  0000 C CNN
 	1    5600 4900
 	-1   0    0    -1  
@@ -538,31 +538,7 @@ Wire Wire Line
 	6300 4850 6300 4000
 Text Label 6550 4000 0    40   ~ 0
 DO
-$Comp
-L GNDD #PWR05
-U 1 1 5B955CD6
-P 4800 6300
-F 0 "#PWR05" H 4800 6050 50  0001 C CNN
-F 1 "GNDD" H 4800 6150 50  0000 C CNN
-F 2 "" H 4800 6300 50  0000 C CNN
-F 3 "" H 4800 6300 50  0000 C CNN
-	1    4800 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 6100 4800 6300
-Wire Wire Line
-	4800 6200 6900 6200
-Wire Wire Line
-	6900 6200 6900 6100
-Connection ~ 4800 6200
-Wire Wire Line
-	6200 6100 6200 6200
-Connection ~ 6200 6200
-Wire Wire Line
-	5500 6100 5500 6200
-Connection ~ 5500 6200
-Text Label 6500 2200 0    40   ~ 0
+Text Label 6600 2200 0    40   ~ 0
 Aout
 Text Notes 5500 2050 0    60   ~ 0
 Load Cell
@@ -586,4 +562,18 @@ Text Notes 8100 3100 0    60   ~ 0
 Group C Twisted Pair
 Text Notes 8100 3600 0    60   ~ 0
 Group D Twisted Pair
+$Comp
+L TP_Top TT10
+U 1 1 5B958039
+P 6550 1950
+F 0 "TT10" H 6600 1980 35  0000 C CNN
+F 1 "Aout" H 6560 2080 50  0000 C CNN
+F 2 "_Connector:Test_Point_SMD_0.040_Top" H 6550 2000 50  0001 C CNN
+F 3 "" H 6550 2000 50  0000 C CNN
+	1    6550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1950 6550 2200
+Connection ~ 6550 2200
 $EndSCHEMATC
