@@ -337,8 +337,8 @@ Connection ~ 5000 2500
 Wire Wire Line
 	5300 2450 5300 2600
 Connection ~ 5300 2600
-Text Notes 1800 4150 0    40   ~ 0
-Note: There are no I2C termination resistors on this board.\nIt is assumd that these are on the other end of the line.
+Text Notes 1850 4150 0    40   ~ 0
+Note: There are no I2C termination resistors on this board.\nIt is assumed that these are on the other end of the line.
 $Comp
 L TP_Top TT3
 U 1 1 5B9530D8
