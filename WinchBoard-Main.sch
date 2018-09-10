@@ -35,11 +35,11 @@ LIBS:hdmi
 LIBS:WinchBoard-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title ""
-Date ""
+Date "10-Sep-2018"
 Rev ""
 Comp ""
 Comment1 ""

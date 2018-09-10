@@ -39,7 +39,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Winch Termination Board"
-Date "8-Sep-2018"
+Date "10-Sep-2018"
 Rev "revA"
 Comp "Ten Mile Square Technologies"
 Comment1 ""

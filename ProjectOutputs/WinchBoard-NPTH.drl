@@ -1,0 +1,17 @@
+M48
+;DRILL file {KiCad 4.0.2-stable} date Monday, September 10, 2018 'AMt' 08:27:52 AM
+;FORMAT={2:4/ absolute / inch / suppress leading zeros}
+FMAT,2
+INCH,TZ
+T1C0.126
+%
+G90
+G05
+M72
+T1
+X41500Y-38500
+X45500Y-30000
+X54500Y-30000
+X54500Y-38500
+T0
+M30
